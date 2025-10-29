@@ -44,9 +44,9 @@ public class CommandWords
      */
     public void showAll() 
     {
+        StringBuilder commands = new StringBuilder();
         for(String command: validCommands) {
-            System.out.print(command + "  ");
+            commands.append(command).append(" ");  
         }
-        System.out.println();
     }
 }

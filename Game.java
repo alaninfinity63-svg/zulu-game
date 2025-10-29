@@ -1,3 +1,4 @@
+import.java.util.Array;
 /**
  *  This class is the main class of the "World of Zuul" application. 
  *  "World of Zuul" is a very simple, text based adventure game.  Users 
@@ -26,6 +27,7 @@ public class Game
     {
         createRooms();
         parser = new Parser();
+        String commands = new commands[];
     }
 
     /**
